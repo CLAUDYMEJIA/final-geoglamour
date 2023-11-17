@@ -95,7 +95,7 @@ class LoginScreen extends StatelessWidget {
               },
               style: ButtonStyle(
                 backgroundColor: MaterialStateProperty.all<Color>(
-                    Colors.deepOrange), // Cambia el color aquí
+                    Colors.deepblue), // Cambia el color aquí
               ),
               child: Text('inicio de seccion',
                   style: TextStyle(
