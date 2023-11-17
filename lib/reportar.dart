@@ -72,7 +72,7 @@ class reportar extends StatelessWidget {
             ListTile(
               leading: Icon(Icons.map),
               title: Text(
-                'Mapa',
+                'MAPS',
                 style: TextStyle(fontSize: 20),
               ),
               onTap: () {
