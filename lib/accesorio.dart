@@ -59,7 +59,7 @@ class accesorios extends StatelessWidget {
                 child: Column(
                   children: [
                     Text(
-                      'GeoGlamour',
+                      'Aplicaccion GeoGlamour',
                       style: TextStyle(fontSize: 30, color: Colors.white),
                     ),
                     Image.asset(
