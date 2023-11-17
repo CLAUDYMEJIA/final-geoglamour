@@ -29,7 +29,7 @@ class LoginScreen extends StatelessWidget {
         backgroundColor: Colors.black,
         automaticallyImplyLeading: false,
         leading: Icon(Icons.person),
-        title: Text('Inicio de Sesión'),
+        title: Text('seccion inicio'),
       ),
       body: Container(
         color: Colors.white,
