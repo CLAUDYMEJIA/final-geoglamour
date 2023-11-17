@@ -174,6 +174,73 @@ class MapScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => LoginScreen()),
+
+                ); // Cierra el Drawer
+                // Agrega la lógica para navegar a la página "Acerca de" aquí
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.exit_to_app),
+              title: Text(
+                'Cerrar sesión',
+                style: TextStyle(
+                  color: Colors.red,
+                  // Cambia el color del texto a rojo
+                  fontSize: 20.0,
+                  // Cambia el tamaño de la fuente según tus preferencias
+                  fontWeight: FontWeight
+                      .bold, // Cambia el peso de la fuente según tus preferencias
+                ),
+              ),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => LoginScreen()),
+
+                ); // Cierra el Drawer
+                // Agrega la lógica para navegar a la página "Acerca de" aquí
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.exit_to_app),
+              title: Text(
+                'Cerrar sesión',
+                style: TextStyle(
+                  color: Colors.red,
+                  // Cambia el color del texto a rojo
+                  fontSize: 20.0,
+                  // Cambia el tamaño de la fuente según tus preferencias
+                  fontWeight: FontWeight
+                      .bold, // Cambia el peso de la fuente según tus preferencias
+                ),
+              ),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => LoginScreen()),
+
+                ); // Cierra el Drawer
+                // Agrega la lógica para navegar a la página "Acerca de" aquí
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.people),
+              title: Text(
+                'Acerca De Geoglamour',
+                style: TextStyle(
+                  color: Colors.red,
+                  // Cambia el color del texto a rojo
+                  fontSize: 20.0,
+                  // Cambia el tamaño de la fuente según tus preferencias
+                  fontWeight: FontWeight
+                      .bold, // Cambia el peso de la fuente según tus preferencias
+                ),
+              ),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => LoginScreen()),
+
                 ); // Cierra el Drawer
                 // Agrega la lógica para navegar a la página "Acerca de" aquí
               },
@@ -208,9 +275,9 @@ class MapScreen extends StatelessWidget {
                             fontSize: 16.0, fontWeight: FontWeight.bold),
                       ),
                       Text(
-                        'Collar Rojo para gatos cachorros \n'
+                        'Collar negro para gatos cachorros \n'
                             'ID:2234242\n'
-                            'Dueño: Brandon Mejia',
+                            'Dueño: Arely Mejia',
                         style: TextStyle(fontSize: 15.0),
                       ),
                     ],
