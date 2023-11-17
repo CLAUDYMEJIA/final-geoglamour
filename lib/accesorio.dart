@@ -115,7 +115,7 @@ class accesorios extends StatelessWidget {
               ListTile(
                 leading: Icon(Icons.exit_to_app),
                 title: Text(
-                  'Cerrar sesión',
+                  'salir',
                   style: TextStyle(
                     color: Colors.red,
                     // Cambia el color del texto a rojo
