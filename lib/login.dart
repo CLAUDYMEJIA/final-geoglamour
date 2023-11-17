@@ -63,7 +63,7 @@ class LoginScreen extends StatelessWidget {
             TextFormField(
               obscureText: true,
               decoration: InputDecoration(
-                labelText: 'password',
+                labelText: 'inicio',
                 prefixIcon: Icon(Icons.remove_red_eye_outlined),
               ),
             ),
