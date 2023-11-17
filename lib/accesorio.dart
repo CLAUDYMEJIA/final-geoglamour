@@ -217,7 +217,7 @@ class accesorios extends StatelessWidget {
                                   );
                                   // Agrega aquí la lógica para el botón de "Información"
                                 },
-                                child: Text('Reportar'),
+                                child: Text('Acesorios'),
                               ),
                               SizedBox(width: 16.0), // Espacio entre los botones
                               ElevatedButton(
