@@ -61,7 +61,7 @@ class RegisterUserScreen extends StatelessWidget {
     return Scaffold(
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
-        title: Text('Registro de Nuevo Usuario'),
+        title: Text('Registrate'),
         backgroundColor: Colors.black,
       ),
       body: Padding(
