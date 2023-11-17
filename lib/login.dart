@@ -80,7 +80,7 @@ class LoginScreen extends StatelessWidget {
                 backgroundColor: MaterialStateProperty.all<Color>(
                     Colors.deepOrange), // Cambia el color aquí
               ),
-              child: Text('Iniciar sesión',
+              child: Text('inicio',
                   style: TextStyle(
                       color: Colors
                           .white)), // Cambia el color del texto si es necesario
