@@ -34,7 +34,7 @@ class nuevousuario extends StatelessWidget {
                 MaterialPageRoute(builder: (context) => reportar()),
               );
             },
-            child: Text('Reportar Accesorio Perdido'),
+            child: Text('Reportar mascota o persona'),
           ),
           ElevatedButton(
             onPressed: () {
