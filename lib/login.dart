@@ -26,7 +26,7 @@ class LoginScreen extends StatelessWidget {
     return Scaffold(
       resizeToAvoidBottomInset: false,
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.red,
         automaticallyImplyLeading: false,
         leading: Icon(Icons.person),
         title: Text('inicio seccion'),
